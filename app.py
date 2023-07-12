@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+# from flask_sqlalchemy import SQLAlchemy
 from flask import request
 from flask import redirect
 from flask import render_template
@@ -14,12 +14,11 @@ from flask_login import login_required, current_user,login_required, logout_user
 import psycopg2
 import smtplib
 import ssl
-from email.message import EmailMessage
+# from email.message import EmailMessage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
-import schedule
-import time
+
 
 sender_email = 'ticketshownow@gmail.com'
 email_password = 'frprtksngzetxfym'
